@@ -1,0 +1,42 @@
+// =================================
+//  ASIDE
+// =================================
+.aside {
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: $asideIndex;
+  background: $asideBackgroundColor;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: inset -2px 0px 6px rgba(0,0,0,.5);
+  transition: all 0.4s cubic-bezier(0.46, 0.01, 0.32, 1);
+}
+.aside-left {
+  width: $asideLeftWidth;
+  left: -$asideLeftWidth;
+  border-right: 1px solid $asideBorderColor;
+}
+.is-moved-by-aside {
+  transition: all 0.4s cubic-bezier(0.46, 0.01, 0.32, 1);
+}
+.aside ul {
+  margin: 0;
+  padding: 0;
+  li {
+    overflow: auto;
+    list-style: none;
+    &:first-child {
+      border-bottom: 1px solid rgba(200,200,200,.1);
+    }
+  }
+  a {
+    padding: $gutter;
+    display: block;
+    color: white;
+    &:hover {
+      background: rgba(0,0,0,.2);
+    }
+  }
+}

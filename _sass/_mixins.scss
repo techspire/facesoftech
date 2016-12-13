@@ -1,0 +1,90 @@
+@import "variables";
+
+// FONT SIZE IN REM
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// MEDIA QUERY
+@mixin show-mb {
+  @media only screen and (max-width: $mobile) {
+    @content;
+  }
+}
+@mixin show-tb {
+  @media only screen and (min-width: $mobile) and (max-width: $tablet) {
+    @content;
+  }
+}
+@mixin show-dk {
+  @media only screen and (min-width: $tablet) {
+    @content;
+  }
+}
+@mixin hide-mb {
+  @media only screen and (min-width: $mobile) {
+    @content;
+  }
+}
+@mixin hide-dk {
+  @media only screen and (max-width: $tablet) {
+    @content;
+  }
+}
+
+
+
+// TRANSITIONS
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+// CROSS BROWSER OPTIMIZATION
+@mixin optimize($key, $value) {
+  -webkit-#{$key}: $value;
+  -moz-#{$key}: $value;
+  -ms-#{$key}: $value;
+  -o-#{$key}: $value;
+  #{$key}: $value;
+}
+
+// CROSS BROWSER OPACITY
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+// CLEARFIX
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// VISUALLY HIDE ELEMENT - FOR SCREEN READERS
+%visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}

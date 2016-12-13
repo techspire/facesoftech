@@ -1,0 +1,40 @@
+@import "components";
+
+#carousel-landing {
+  @include show-dk{ overflow: hidden; height: 500px; }
+  &:hover .carousel-caption { background: rgba(0,0,0,.7); }
+  .item {
+    position: relative;
+  }
+  .carousel-caption {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    @include transition(background $fast);
+    @include show-dk{ height: 500px !important; }
+  }
+}
+
+.section-divider {
+  display: inline-block;
+  border: none;
+  margin: $gutter 0;
+}
+
+// =================================
+//
+// =================================
+#carousel-landing .carousel-caption {
+  .caption-header {
+    small { color: $color-gold; }
+  }
+}
+// =================================
+//
+// =================================
+.section.section-techies {
+}

@@ -1,0 +1,60 @@
+---
+---
+// @import "normalize";
+@import "pages";
+@import "header";
+@import "aside";
+@charset "utf-8";
+
+// =================================
+//  BASIC LAYOUT
+// =================================
+
+html, body {
+  font-size: $base-font-size;
+  @include font-size($base-font-size);
+  background: $base-backgound-color;
+  font-weight: $base-font-weight;
+  font-family: $base-font-family !important;
+  min-width: $base-min-width;
+}
+body {
+  color: $base-font-color;
+  letter-spacing: $base-letter-spacing;
+  line-height: $base-line-height;
+}
+a {
+  &:link, &:visited, &:hover, &:active {
+    text-decoration: none;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    // color: $color-aqua;
+  }
+}
+a {
+  // color: $base-font-color;
+}
+// =================================
+//
+// =================================
+#container {
+  overflow: hidden;
+}
+.js-aside-open.js-aside-open-left {
+  overflow: hidden;
+  .aside-left {
+    left: 0;
+  }
+  .is-moved-by-aside {
+    transform: translate(300px);
+  }
+}
+
+// =================================
+//  MAIN
+// =================================
+#main {
+
+}
