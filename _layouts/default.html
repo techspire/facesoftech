@@ -5,24 +5,17 @@
   </head>
   <body>
     {% include modals.html %}
-    <aside id="aside" class="aside aside-left">
-      {% include aside.html %}
-    </aside>
+    <header id="header">
+      {% include header.html %}
+    </header>
 
-    <div id="Container" class="is-moved-by-aside">
-      <header id="header">
-        {% include header.html %}
-      </header>
+    <main id="main" class="page-{{ page.class }}">
+      {{ content }}
+    </main>
 
-      <main id="main" class="page-{{ page.class }}">
-        {{ content }}
-      </main>
-
-      <footer id="footer">
-        {% include footer.html %}
-      </footer>
-    </div>
+    <footer id="footer">
+      {% include footer.html %}
+    </footer>
     <script src="/assets/javascripts/main.js"></script>
-    <script src="/assets/javascripts/theme.js"></script>
   </body>
 </html>
