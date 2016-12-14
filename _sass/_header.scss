@@ -8,9 +8,7 @@
   display: block;
   position: fixed;
   background: white;
-  border-bottom-width: 0;
-  border-bottom-style: solid;
-  border-bottom-color: $header-border-color;
+  box-shadow: 0 0 3px rgba(0,0,0,.2);
 }
 .navigation {
   text-align: center;

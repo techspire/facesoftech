@@ -2,28 +2,26 @@
 layout: default
 title: Home
 author:
-description: Welcome
-tags:
+description: Black and Latinx People In Tech
+tags: tech, diversity, inclusion
 class: landing
 ---
 <article>
   <section class="section section-intro">
     {% include carousel_landing.html %}
   </section>
-  <hr class="section-divider" />
-  <section class="section section-techies container">
-      <div class="section-header">
+  <section class="section section-techies">
+    <hr class="section-divider hide-mb" />
+      <div class="section-header show-mb">
+        <br />
         <h4>
-          Black & Latinx People in Tech
-          Because Representation Matters
+          Black & Latinx People in Tech<br />
+          <small>Because Representation Matters</small>
         </h4>
+        <br />
       </div>
       <div class="section-content">
-        <ul class="techie-list">
-          <li>
-
-          </li>
-        </ul>
+        {% include list.html %}
       </div>
   </section>
 </article>

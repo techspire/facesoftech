@@ -1,0 +1,46 @@
+<ul>
+{% for person in site.data.people %}
+  {% assign fname = person.firstname | strip_newlines %}
+  {% assign lname = person.firstname | strip_newlines %}
+  {% if fname != '' or lname  != '' %}
+  <li>
+    <div class="card">
+      <div class="card-header">
+        {% for link in person.social_links %}
+            {% assign link1 = link[1] | strip_newlines %}
+            {% if link1 != '' %}
+            <a href="{{ link[1] }}" target="_blank">
+              <i class="fa fa-{{ link[0] }}"></i>
+            </a>
+            {% endif %}
+        {% endfor %}
+      </div>
+
+      {% assign img = person.image | strip_newlines %}
+      {% if img == '' %}
+      <img src="/assets/images/placeholder.jpg" alt="{{ person.firstname }} {{ person.lastname }}" width="100%" />
+      {% else %}
+      <img src="{{ person.image }}" alt="{{ person.firstname }} {{ person.lastname }}" width="100%" />
+      {% endif %}
+
+      <div class="card-footer">
+        {% assign title = person.title | strip_newlines %}
+        {% if title != '' %}
+          <a class="media-heading" data-toggle="tooltip" data-placement="top" title="{{ person.title }}">
+        {% else %}
+          <a class="media-heading">
+        {% endif %}
+          {{ person.firstname }} {{ person.lastname }}
+        </a>
+      </div>
+
+    </div>
+  </li>
+  {% endif %}
+  {% assign fname = '' %}
+  {% assign lname = '' %}
+  {% assign title = '' %}
+  {% assign link1 = '' %}
+  {% assign img = '' %}
+{% endfor %}
+</ul>

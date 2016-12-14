@@ -1,3 +1,2 @@
 gems: [jekyll-sass-converter, jekyll-watch]
 title: Faces Of Tech
-permalink: /posts/:year/:month/:day/:title

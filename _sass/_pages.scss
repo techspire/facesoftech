@@ -1,7 +1,7 @@
 @import "components";
 
 #carousel-landing {
-  @include show-dk{ overflow: hidden; height: 500px; }
+  @include show-dk{ overflow: hidden; height: 400px; }
   &:hover .carousel-caption { background: rgba(0,0,0,.7); }
   .item {
     position: relative;
@@ -15,7 +15,7 @@
     position: absolute;
     background: rgba(0,0,0,.6);
     @include transition(background $fast);
-    @include show-dk{ height: 500px !important; }
+    @include show-dk{ height: 400px !important; }
   }
 }
 
@@ -29,7 +29,12 @@
 //
 // =================================
 #carousel-landing .carousel-caption {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
   .caption-header {
+    width: 100%;
     small { color: $color-gold; }
   }
 }
@@ -37,4 +42,65 @@
 //
 // =================================
 .section.section-techies {
+  background: #eee;
+  .section-header {
+    text-align: center;
+    margin-bottom: $gutter;
+  }
+  padding: 5px;
+  ul {
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0;
+    max-width: $base-max-width;
+  }
+  li {
+    list-style: none;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 5px;
+    @include small-mb { width: 100% !important; }
+    @include show-mb { width: 50%; }
+    @include show-tb { width: 33.3333%; }
+    @include show-dk { width: 25%; }
+    @include large-dk { width: 300px; }
+    .card {
+      background: white;
+      position: relative;
+      // color: white;
+      box-shadow: 0 0 3px rgba(0,0,0,.2);
+      .card-footer, .card-header {
+        padding: 10px;
+      }
+      .card-header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        a .fa {
+          color: $base-font-family;
+          margin-right: 5px;
+          padding: 10px;
+          font-size: 90%;
+          background: rgba(255,255,255,.7);
+          border-radius: 100%;
+        }
+      }
+      .card-footer {
+        a {
+          font-size: 80%;
+          color: $base-font-color;
+          display: block;
+          text-align: center;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 }

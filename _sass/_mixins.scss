@@ -12,6 +12,11 @@
 }
 
 // MEDIA QUERY
+@mixin small-mb {
+  @media only screen and (max-width: 360px) {
+    @content;
+  }
+}
 @mixin show-mb {
   @media only screen and (max-width: $mobile) {
     @content;
@@ -34,6 +39,11 @@
 }
 @mixin hide-dk {
   @media only screen and (max-width: $tablet) {
+    @content;
+  }
+}
+@mixin large-dk {
+  @media only screen and (min-width: $base-max-width) {
     @content;
   }
 }

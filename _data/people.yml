@@ -1,0 +1,252 @@
+- firstname: ""
+  lastname: ""
+  gender: ""
+  title: ""
+  image: ""
+  social_links:
+    linkedin: ""
+    twitter:  ""
+
+- firstname: "Candace"
+  lastname: "V. Mitchell"
+  gender: "female"
+  title: "Co-founder/CEO of Myavana"
+  image: "https://pbs.twimg.com/profile_images/760024945325924353/JGp6btrq_400x400.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/candacevictoria"
+    twitter:  "https://twitter.com/candyvmitchell"
+
+- firstname: "Jewel"
+  lastname: "Burks"
+  gender: "female"
+  title: "Tech Entrepreneur"
+  image: "https://pbs.twimg.com/profile_images/755381738541551616/N62kAQ_d_400x400.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/jewelburks"
+    twitter:  "https://twitter.com/jewelmelanie"
+
+- firstname: "Erica"
+  lastname: "Baker"
+  gender: "female"
+  title: "Engineer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAffAAAAJDcwYTVmNzY0LWU0NzctNGQ5Mi04Njk4LWIyMjg3YjJkY2Q2YQ.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/ericajoy"
+    twitter:  "https://twitter.com/EricaJoy"
+
+- firstname: "Megan"
+  lastname: "Anctil"
+  gender: "female"
+  title: "Senior Engineer"
+  image: "https://pbs.twimg.com/profile_images/614170187265277952/dqlxqliL_400x400.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/megsa"
+    twitter:  "https://twitter.com/megsa_"
+
+- firstname: "Duretti"
+  lastname: "Hirpa"
+  gender: "female"
+  title: "Engineer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAOxAAAAJDdjYzg2NGI5LTI5ZmYtNDUwYy1hYjU0LTdiYWY3YmQ2YmEwNg.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/duretti"
+    twitter:  "https://twitter.com/duretti"
+
+- firstname: "Kaya"
+  lastname: "Thomas"
+  gender: "female"
+  title: "IOS Developer"
+  image: ""
+  social_links:
+    linkedin: "https://www.linkedin.com/in/kayathomas"
+    twitter:  "https://twitter.com/kthomas901"
+
+- firstname: "Kalimah"
+  lastname: "Priforce"
+  gender: "male"
+  title: "CEO of Qeyno Labs"
+  image: "https://pbs.twimg.com/profile_images/577836254684807168/CxVaMrf1_400x400.jpeg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/priforce"
+    twitter:  "https://twitter.com/priforce"
+
+- firstname: "Makinde"
+  lastname: "Adeagbo"
+  gender: "male"
+  title: "Founder & CEO of DevColor | Engineer"
+  image: "https://pbs.twimg.com/profile_images/460669585738309632/AjsVBjWW_400x400.jpeg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/makinde"
+    twitter:  "https://twitter.com/makinde"
+
+
+- firstname: "Lynn"
+  lastname: "Cyrin"
+  gender: "female"
+  title: "Founder of CollectQT | Web Developer"
+  image: "https://pbs.twimg.com/profile_images/783460110991446016/TewczF74_400x400.jpg"
+  social_links:
+    linkedin: ""
+    twitter:  "https://twitter.com/lynncyrin"
+
+- firstname: "Philip"
+  lastname: "Kasumu"
+  gender: "male"
+  title: "Co-founder & CEO of ScanBite"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlyAAAAJGE3NjZkZTEyLTQ1MzQtNGM1NS1iNGE3LTg2ZGY4NmY0NWQ1NA.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/philip-kasumu-57154680"
+    twitter:  "https://twitter.com/philipkasumu"
+
+- firstname: "Ben"
+  lastname: "Ilegbodu"
+  gender: "male"
+  title: "Senior UI Engineer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAakAAAAJDU0ZjBlMGVmLTI1NTEtNDVmMS1iODM3LWFjYmNjOGM1M2Q1ZA.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/benmvp"
+    twitter:  "https://twitter.com/benmvp"
+
+- firstname: "Safia"
+  lastname: "Abdalla"
+  gender: "female"
+  title: "Founder of dsfa.io | Engineer"
+  image: "https://pbs.twimg.com/profile_images/804125605000335360/iLKSIfkP_400x400.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/safiaabdalla"
+    twitter:  "https://twitter.com/captainsafia"
+
+- firstname: "Randolph"
+  lastname: "Brown"
+  gender: "male"
+  title: "CTO @ Jopwell"
+  image: "https://pbs.twimg.com/profile_images/672877776412803072/Vh6Co8VC_400x400.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/randolphebrown"
+    twitter:  "https://twitter.com/randolphebrown"
+
+- firstname: "Girum"
+  lastname: "Ibssa"
+  gender: "male"
+  title: "Engineer"
+  image: ""
+  social_links:
+    linkedin: "https://www.linkedin.com/in/girum-ibssa-73973633"
+    twitter:  ""
+
+- firstname: "Jacky"
+  lastname: "Alciné"
+  gender: "male"
+  title: "Developer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAXrAAAAJDc5NGJjNTNlLTMxOTUtNDc1NS1iZDhhLTBlN2M0OTViYjRiZA.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/jackyalcine"
+    twitter:  "https://twitter.com/jackyalcine"
+
+- firstname: "David"
+  lastname: "Reodriguez"
+  gender: "male"
+  title: "Mobile Developer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAATyAAAAJDljMzI3MjhiLTU5NmItNDExNC05ODQ2LWI5NGI4NWU4MjY4OQ.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/programmerdave"
+    twitter:  "https://twitter.com/programmerdave"
+
+- firstname: "Douglass"
+  lastname: "Turner"
+  gender: "male"
+  title: "IOS Developer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/081/0a7/1aa74fe.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/douglassturner"
+    twitter:  "https://twitter.com/dugla"
+
+- firstname: "Adames"
+  lastname: "Hodelin"
+  gender: "male"
+  title: "Product Manager"
+  image: "https://pbs.twimg.com/profile_images/578031708873859073/P_-JB7Nw_400x400.jpeg"
+  social_links:
+    linkedin: ""
+    twitter:  "https://twitter.com/ad_mes"
+
+- firstname: "Hadiyah"
+  lastname: "Mujhid"
+  gender: "female"
+  title: "Engineer"
+  image: "https://pbs.twimg.com/profile_images/634582531887644672/BZTEu7HZ_400x400.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/hmujhid"
+    twitter:  "https://twitter.com/hadiyahdotme"
+
+- firstname: "Aliseya"
+  lastname: "Wright"
+  gender: "female"
+  title: "Engineer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASoAAAAJDg5NWE0NGY0LTg4ODMtNDdhOS05MmQ0LWUwNmE3NDJhYjJjMQ.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/aliseya"
+    twitter:  "https://twitter.com/aliseya"
+
+- firstname: "Leslie"
+  lastname: "Miley"
+  gender: "male"
+  title: "Enigneering Leadership"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmFAAAAJDg4ZTllY2YzLWZjODgtNDFjNy04MWQ1LWVmMGIzMTcwMmUzZA.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/lesliehm"
+    twitter:  "https://twitter.com/shaft"
+
+- firstname: "Christina"
+  lastname: "Morillo"
+  gender: "female"
+  title: "Vice President, Technology and Information Risk"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbFAAAAJDQzYjQ1MGIzLTIwODctNGI1OS1iZTFkLTYyYWFhNThmZWI2Yw.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/christinamorillo"
+    twitter:  "https://twitter.com/divinetechygirl"
+
+- firstname: "Justin"
+  lastname: "Washington"
+  gender: "male"
+  title: "QA Engineer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/064/13a/0748fa9.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/justinwashington"
+    twitter:  "https://twitter.com/jaywashradio"
+
+- firstname: "Nicole"
+  lastname: "Dominguez"
+  gender: "female"
+  title: "Product Designer | Frontend Dev."
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfjAAAAJDZlMDg3MzdiLWZiNmMtNGE4Ni05MDUwLWRkOWE1ZTcwMTQ4Zg.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/domingueznicole"
+    twitter:  "https://twitter.com/sodevious"
+
+- firstname: "Onwukike"
+  lastname: "Ibe"
+  gender: "male"
+  title: "Engineer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/000/1ae/33e/15597b2.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/onwukike-ibe-33170830"
+    twitter:  "https://twitter.com/kikeibe"
+
+- firstname: "Terri"
+  lastname: "C. Burns"
+  gender: "female"
+  title: "Product Manager"
+  image: "https://pbs.twimg.com/profile_images/774086427105648640/wv2G7aYk_400x400.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/terricburns"
+    twitter:  "https://twitter.com/tcburning"
+
+- firstname: "Iheanyi"
+  lastname: "Ekechukwu"
+  gender: "male"
+  title: "Engineer"
+  image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUjAAAAJGUwYTE0MWRkLTMyOTgtNDk2YS04NzgyLWYzYzdkYzY4MWJiNQ.jpg"
+  social_links:
+    linkedin: "https://www.linkedin.com/in/iheanyi"
+    twitter:  "https://twitter.com/kwuchu"
