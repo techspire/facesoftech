@@ -165,9 +165,9 @@
   lastname: "Hodelin"
   gender: "male"
   title: "Product Manager"
-  image: "https://pbs.twimg.com/profile_images/578031708873859073/P_-JB7Nw_400x400.jpeg"
+  image: "https://avatars1.githubusercontent.com/u/9205134?v=3&s=460"
   social_links:
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/adames-hodelin-5b343942/"
     twitter:  "https://twitter.com/ad_mes"
 
 - firstname: "Hadiyah"
